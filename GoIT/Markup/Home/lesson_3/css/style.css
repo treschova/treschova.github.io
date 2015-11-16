@@ -15,7 +15,7 @@ body {
 .menu {
 	margin-top: 40px;
 	box-shadow: -webkit-linear-gradient( 90deg, rgb( 68, 67, 67 ) 0%, rgb( 94, 94, 94 ) 100%);
-    background-image:  -webkit-linear-gradient(bottom, rgb(69, 68, 68) 35%, rgb(93, 93, 93) 62%);
+    
 }    
 .menu a {
 	text-decoration: none;
