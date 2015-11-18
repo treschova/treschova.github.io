@@ -14,22 +14,27 @@ body {
     /*HEADER*/   
 .menu {
 	margin-top: 40px;
-	box-shadow: -webkit-linear-gradient( 90deg, rgb( 68, 67, 67 ) 0%, rgb( 94, 94, 94 ) 100%);
-    
-}    
+	background: linear-gradient(to top, #464545, #5d5d5d);box-shadow: -webkit-linear-gradient( 90deg, rgb( 68, 67, 67 ) 0%, rgb( 94, 94, 94 ) 100%); 
+	box-shadow: -webkit-linear-gradient( 90deg, rgb( 68, 67, 67 ) 0%, rgb( 94, 94, 94 ) 100%); 
+
+	
+} 
+.menu li {
+	margin: 1px;
+	display: inline-block;
+    background: -webkit-linear-gradient( 90deg, rgb( 68, 67, 67 ) 0%, rgb( 94, 94, 94 ) 100%); 
+	  
+	line-height: 40px;
+	padding-right: 65px;
+	padding-left: 25px;
+	text-shadow: 0.5px 0.866px 1px rgb( 0, 0, 0 );
+}   
 .menu a {
 	text-decoration: none;
 	color: white;	
 	font-size: 14px;
 }
-.menu li {
-	margin: 1px;
-	display: inline-block;
-	line-height: 40px;
-	padding-right: 65px;
-	padding-left: 25px;
-	text-shadow: 0.5px 0.866px 1px rgb( 0, 0, 0 );
-}
+
 .menu li:hover {
 	margin: 0px;
 	background: #454545;
