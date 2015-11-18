@@ -1,0 +1,87 @@
+body {
+	font-style: 'Tahoma' sans-serif;
+	font-size: 9px;
+	background-color: black;
+	color: white;
+}
+.wrapper {
+	
+	background-image: url(../img/background.png);  
+	width: 960px;
+	min-height: 880px;
+	margin: 0 auto;
+}
+/*Header*/
+.logo {
+	float: left;
+	margin: 55px 70px;
+	width: 260px;
+}
+.contacts {
+	float: right;
+	margin: 145px 70px 0px 0px;
+	line-height: 11px;
+}
+.contacts p:first-line {
+	font-size: 11px;
+	line-height: 20px;
+}	
+
+.clearfix:after {
+	content: '';
+	clear: both;
+	display: block;	
+}
+/*Container*/
+.contant {
+	float: left;
+	margin-top: -50px;
+	margin-left: 70px;
+}
+.contant li {
+	width: 270px;
+	height: 190px;
+	margin: 0 5px 70px 0;
+	text-align: center;
+	display: inline-block;
+	border-radius: 6px;		
+}
+
+.contant a {
+	display: block;
+	font-weight: bold;
+	color: white;
+	font-size: 16px;
+	text-decoration: none;	
+	margin: 187px 0 0 0;
+}
+
+li.india  {
+	background: url(../img/india.png)  no-repeat;
+}
+li.nepal {
+	background: url(../img/nepal.png) no-repeat;
+	
+}
+li.tibet {
+	background: url(../img/tibet.png) no-repeat;
+
+}
+li.bhutan {
+	background: url(../img/bhutan.png) no-repeat;
+	
+}
+li.sri_lanka {
+	background: url(../img/srilanka.png) no-repeat;	
+
+}
+li.maldives {
+	background: url(../img/maldives.png) no-repeat;	
+}
+/*Footer*/
+
+.copyright p {
+	text-align:  center;
+	margin: 120px 0 0 0;
+	font-size: 11px;
+}
