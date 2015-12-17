@@ -3,6 +3,13 @@ body {
 	font-family: sans-serif;
 	font-size: 13px; 
     }
+
+.clearfix:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+	    
 .wrapper {
 	background: #ffffff;
 	margin: 0 auto;
@@ -16,7 +23,6 @@ body {
 	margin-top: 40px;
 	background: linear-gradient(to top, #464545, #5d5d5d);box-shadow: -webkit-linear-gradient( 90deg, rgb( 68, 67, 67 ) 0%, rgb( 94, 94, 94 ) 100%); 
 	box-shadow: -webkit-linear-gradient( 90deg, rgb( 68, 67, 67 ) 0%, rgb( 94, 94, 94 ) 100%); 
-
 	
 } 
 .menu li {
@@ -30,6 +36,7 @@ body {
 	text-shadow: 0.5px 0.866px 1px rgb( 0, 0, 0 );
 }   
 .menu a {
+	display: block;
 	text-decoration: none;
 	color: white;	
 	font-size: 14px;
@@ -55,10 +62,14 @@ body {
 	line-height: 40px;
 }    
 .left_menu a {
+	display: block;
 	text-decoration: none;
 	color: #656363;	
 	font-size: 14px;
-
+}	
+.left_menu a:hover {
+	color: black;
+	padding-left: 35px;
 }
 .left_menu li {
 	line-height: 40px;
@@ -68,16 +79,16 @@ body {
 .left_menu li:last-child {
 	border-bottom: none;
 }
-.left_menu a:hover {
-	color: #2c2c2c;
-	padding-left: 35px;
-}
+
 .content {
 	width: 680px;
-	float: right;
+	float: right;	
+}
+.content img {
 	border: 1px solid #c8c8c8; 
+	padding: 50px 90px 50px 90px;
 	text-align: center;
-	padding: 50px 0px 50px 0px;
+
 }
 .text_block {
     margin-top: 40px;
@@ -86,7 +97,7 @@ body {
 	margin-bottom: 60px;
 	color: #656363;
 }
-.text_block p {
+.text_block  {
 	line-height: 25px;
 	padding-left: 25px;
 	
@@ -96,26 +107,30 @@ body {
 .footer {
 	clear: both;
 	background: #e1e1e1;
+
 	
 }
 .footer a {
 	text-decoration: none;
 	font-size: 14px;
 	color: #2c2c2c;
-	padding:  24px;
+	line-height: 40px;
+
 }
 .footer li {
-	display: inline-block;
-	line-height: 40px;
 	margin: 1px;
-	padding-left: 25px;
+	padding-left: 50px;
+	margin: 1px;
+	display: inline-block;
 }
-.footer li:last-child {
-    float: right;
-    padding-right: 25px;
-}
-.footer a:hover {
+
+.footer li:hover {
     text-decoration: underline;
 }
-.logo {}
-.menu {}
+
+.footer p  {
+	padding-right: 25px; 
+	margin-top: -25px;
+    float: right;
+
+}
