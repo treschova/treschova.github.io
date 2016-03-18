@@ -13,7 +13,9 @@ body {
 	line-height: 24px;
 }
 
-.underline {
+.block2,
+.block3,
+.block4 {
 	border-top: 1px solid #959898;
 }
 
