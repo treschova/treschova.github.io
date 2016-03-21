@@ -12,9 +12,10 @@ a {
 	width: 1068px;
 	height: 100%;
 	background-color: #ffffff;
-	background-position: center;
-	border: 2px solid #dbdbdb;
+	padding-top: 50px;
 	box-shadow: 0px 1px 5px 2px rgba(158, 155, 158, 0.2);
+	border-left: 2px solid #dbdbdb;
+	border-right: 2px solid #dbdbdb;
 }
 .header {
 	margin: 50px;
@@ -35,7 +36,7 @@ a {
 .header_menu li {
 	display: inline-block;
 	line-height: 40px;
-	padding: 0 40px;
+	padding: 0 33px;
 }
 .header_menu li a {
 	color: white;
@@ -61,12 +62,15 @@ a {
 .content_menu li a{
     font-size: 15px;
     padding-left: 30px;
+    color: #656363;
 }
 .content_menu li:last-child {
 	border-bottom: none;
 }
 .content_menu li a:hover{
-	padding-left: 45px; 
+	padding-left: 50px; 
+	color: #2c2c2c;
+	background: #f9f9f9;
 }
 .photo {
 	float: right;
@@ -79,7 +83,7 @@ a {
 	width: 640px;
 	padding: 0 20px;
 	line-height: 24px;
-	margin-bottom: 80px;
+	margin-bottom: 100px;
 }	
 .footer {
 	clear: both;
