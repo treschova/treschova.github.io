@@ -11,6 +11,8 @@ a {
 	margin: 0 auto;
 	width: 1068px;
 	height: 100%;
+	min-height: 950px;
+	max-height: 100%;
 	background-color: #ffffff;
 	padding-top: 50px;
 	box-shadow: 0px 1px 5px 2px rgba(158, 155, 158, 0.2);
@@ -18,7 +20,7 @@ a {
 	border-right: 2px solid #dbdbdb;
 }
 .header {
-	margin: 50px;
+	margin: 0 0 50px 50px;
 }
 .logo {
 	padding-bottom: 40px;
@@ -67,7 +69,7 @@ a {
 .content_menu li:last-child {
 	border-bottom: none;
 }
-.content_menu li a:hover{
+.content_menu li:hover{
 	padding-left: 50px; 
 	color: #2c2c2c;
 	background: #f9f9f9;
@@ -83,7 +85,7 @@ a {
 	width: 640px;
 	padding: 0 20px;
 	line-height: 24px;
-	margin-bottom: 100px;
+	margin-bottom: 60px;
 }	
 .footer {
 	clear: both;
@@ -94,7 +96,7 @@ a {
 .footer li{
 	display: inline-block;
 	line-height: 40px;
-	padding: 0 35px;
+	padding: 0 35px ;
 	font-size: 15px;	
 }
 .footer li a:hover {
