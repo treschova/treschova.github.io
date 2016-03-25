@@ -19,6 +19,7 @@ body {
 }
 .logo {
 	float: left;
+	width: 260px;
 }
 .contacts {
 	float: right;
